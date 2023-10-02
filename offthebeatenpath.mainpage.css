@@ -1,0 +1,76 @@
+
+.page {  
+    background-image: linear-gradient(to bottom, rgb(113 255 183), rgb(8 28 187));
+ }
+
+ /* blog title */
+ 
+ .blog-name 
+     {
+         
+         transform: rotateZ(2deg);
+     text-shadow: 10px 50px 20px black, 0 5px blue;
+     text-align: center;
+         perspective: 200px;
+       }
+ 
+
+ 
+ }
+
+ /* this will make your sidebar transaprent, but visbible. 
+ Don't foregt to choose transaprency in advanced settings. */
+
+ .sidebar {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* change the looks of the feed view */
+
+ .feed-view .inline-ad, .feed-view .post-wrapper {
+     margin-bottom: 10px;
+     margin-top: 50px;
+     margin-right: 105px;
+     margin-left: 105px ;
+     background-color: rgba(255, 255, 255, 0.1);
+    
+    }
+ 
+ .feed-view .post-wrapper.not-hero .post-title a {
+     font-size: 38px;
+     line-height: 50px;
+     text-align: center;
+    text-shadow: 1px 50px 10px black, 0px 5px green;
+     backdrop-filter: blur(4px);
+ }
+ .feed-view .post-wrapper .post-title {
+     display: block;
+     margin: -300px -506px -300px;
+     padding: 166px 16px 40px 30px;
+     position: relative;
+     text-overflow: ellipsis;
+     z-index: 2;
+  }
+ .feed-view .post-wrapper {
+         border-radius: 90mm;
+         float: left;
+         overflow: hidden;
+         -webkit-transition: .3s box-shadow cubic-bezier(.4,0,.2,1);
+         transition: .3s box-shadow cubic-bezier(.4,0,.2,1);
+         width: 553px;
+     }
+ 
+ .post-wrapper .post-title, .post-wrapper .post-title a, .post-wrapper .post-title a:hover, .post-wrapper .post-title a:visited {
+     color: #ffffff;
+ 
+ }
+
+
+/* this will make your feed-view transaprent, but visbible. 
+ Don't foregt to choose transaprency in advanced settings. */
+
+ .feed-view .inline-ad, .feed-view .post-wrapper { 
+    background-color: rgba(255, 255, 255, 0.23); 
+}
+
+

@@ -1,0 +1,30 @@
+   
+<style>
+
+.bg-photo-container, .bg-photo-container .bg-photo {
+    height: 264px;
+    width: 100%;
+    overflow: visible;
+    margin-bottom: 5%;
+   }
+       
+       .entry-title {
+       text-align: justify;
+       display:
+      }
+       
+   .centered-top .svg-icon-24 {
+    fill: #20789a;
+   }
+   
+        h1 {
+   
+       margin-top: -7%;
+        text-align: center;
+        line-height: 50px;
+        font-family: Josefin Sans;
+        font-size: 60px;
+        text-shadow:0px 5px rgb(0, 0, 0);
+      }  
+      
+   </style>

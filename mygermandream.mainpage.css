@@ -1,0 +1,26 @@
+.page_body {
+    background-image: radial-gradient(circle at 90% 50%, #b9548c, #00809d);
+}
+.bg-photo-container, .bg-photo-container .bg-photo {
+    height: 390px;
+    width: 100%;
+}
+.sidebar {
+     background-color: rgba(255, 255, 255, 0.2);
+ }
+.feed-view .inline-ad, .feed-view .post-wrapper { 
+     background-color: rgba(255, 255, 255, 0.23); 
+ }
+.blog-name 
+    {
+        text-align: center;
+}
+h1 {
+    font-size: 50px Ubuntu, sans-serif; 
+}
+ .feed-view .post-wrapper.not-hero .post-title a {
+     font-size: 20px;
+     line-height: 20px;
+     text-align: center;
+    margin-bottom: 
+ }

@@ -1,0 +1,14 @@
+.feed-view .inline-ad, .feed-view .post-wrapper { 
+    background-color: rgba(255, 255, 255, 0.23); 
+}
+
+
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.2);
+ }
+
+.post-wrapper {
+    height:300px;
+ }
+
+ 
